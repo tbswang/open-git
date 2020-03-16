@@ -1,14 +1,16 @@
 {
-  "name": "open-git",
-  "version": "0.0.1",
+  "name": "@tbswang/open-git",
+  "version": "0.0.2",
   "description": "open git in browser from terminal",
   "main": "index.js",
+  "bin": "index.js",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tbswang/open-git.git"
   },
   "keywords": [],
-  "author": "tbswang gt2017qd@163.com",
+  "author": "tbswang <gt2017qd@163.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tbswang/open-git/issues"
