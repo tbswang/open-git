@@ -1,4 +1,5 @@
-const execa = require('execa');
+#! /usr/bin/env node
+const execa = require('execa')
 
 class GitObj {
   constructor () {
@@ -6,7 +7,7 @@ class GitObj {
   }
   async getGitUrl (){
     const { stdout } = await execa('git', ['config', '--get', 'remote.origin.url']);
-    console.log('GitObj -> getGitUrl -> out', stdout);
+    console.log('git remote origin url', stdout);
     this.url = stdout;
     return stdout
   }
@@ -19,8 +20,6 @@ class GitObj {
 const gitObj = new GitObj()
 gitObj.getGitUrl().then(url => {
   const httpUrl =  gitObj.getHttpUrl();
-  console.log('httpUrl', httpUrl);
+  console.log('open', httpUrl);
   execa('open', [httpUrl])
 });
-
-// execa('open', [giturl])

@@ -1,6 +1,6 @@
 {
   "name": "@tbswang/open-git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "open git in browser from terminal",
   "main": "index.js",
   "bin": "index.js",
