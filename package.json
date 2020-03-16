@@ -1,0 +1,20 @@
+{
+  "name": "open-git",
+  "version": "0.0.1",
+  "description": "open git in browser from terminal",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbswang/open-git.git"
+  },
+  "keywords": [],
+  "author": "tbswang gt2017qd@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbswang/open-git/issues"
+  },
+  "homepage": "https://github.com/tbswang/open-git#readme",
+  "dependencies": {
+    "execa": "^4.0.0"
+  }
+}
